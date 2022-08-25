@@ -1,3 +1,5 @@
+#pragma once
+
 //添加的头文件
 #include <QLabel>
 #include <QPushButton>
