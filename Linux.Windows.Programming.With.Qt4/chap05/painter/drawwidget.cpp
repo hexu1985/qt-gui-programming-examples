@@ -37,7 +37,7 @@ void DrawWidget::mousePressEvent(QMouseEvent * e)
 
 void DrawWidget::mouseMoveEvent(QMouseEvent * e)
 {
-    QPainter *painter = new QPainter(pix);
+    QPainter *painter = new QPainter;
     QPen pen;
     pen.setStyle((Qt::PenStyle)style);      	
     pen.setWidth(weight);
@@ -48,8 +48,8 @@ void DrawWidget::mouseMoveEvent(QMouseEvent * e)
     painter->drawLine(startPos,e->pos());
     painter->end();
     startPos = e->pos();
+    delete painter;
     update();
-    
 }
 
 void DrawWidget::paintEvent(QPaintEvent *)
