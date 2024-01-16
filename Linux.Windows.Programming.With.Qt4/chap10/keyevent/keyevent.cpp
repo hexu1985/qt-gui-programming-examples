@@ -52,6 +52,7 @@ void KeyEvent::drawPix()
     	j=j+step;
     }    
     painter->drawImage(QPoint(startX,startY),image);
+    delete painter;
 }             
               
 void KeyEvent::keyPressEvent(QKeyEvent *event)
