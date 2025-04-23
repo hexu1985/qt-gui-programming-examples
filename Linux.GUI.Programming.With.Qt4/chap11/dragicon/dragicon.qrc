@@ -1,7 +1,0 @@
-<!DOCTYPE RCC><RCC version="1.0">
-<qresource>
-    <file>images/fish.png</file>
-    <file>images/sheep.png</file>
-    <file>images/heart.png</file>
-</qresource>
-</RCC>
