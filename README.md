@@ -2,11 +2,12 @@
 
 - [C++ GUI Qt4编程(第二版)](Cpp.GUI.Programming.with.Qt4)
 - [C++ Qt设计模式(第二版)](Design.Patterns.in.Cpp.with.Qt)
+- [Qt高级编程](Advanced.Qt.Programming)
 - [Qt5开发及实例](Qt5.Development.And.Example)
 - [Qt5开发实战](Qt5.Programming.Guide)
 - [Qt5.9 C++开发指南](Qt5_9.Cpp.Developing.Guide)
 - [Qt6 C++开发指南](Qt6.Cpp.Developing.Guide)
-- [Qt高级编程](Advanced.Qt.Programming)
+- [Qt6 C++编程实例解析](Qt6.Cpp.GUI.Programming.Cookbook)
 
 ### Ubuntu24.04 apt 安装 Qt6
 
